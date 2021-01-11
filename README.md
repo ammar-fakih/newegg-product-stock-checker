@@ -7,5 +7,7 @@ Eel also allowed me to write the Gui in html, css and javascript.
 
 The program works but has some bugs. One is that the X buttons do not work to remove a row from the table of products.
 
-Screenshot:
+Screenshot:  <br>
 ![program screenshot](web/img/eggCheckerscreenshot.png)
+
+[Download .exe](dist/eggChecker-V.1.exe)
