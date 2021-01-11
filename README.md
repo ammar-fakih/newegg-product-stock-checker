@@ -9,3 +9,5 @@ The program works but has some bugs. One is that the X buttons do not work to re
 
 Screenshot:  <br>
 ![program screenshot](web/img/eggCheckerscreenshot.png)
+
+[Download .exe](dist/eggChecker-V.1.exe)
