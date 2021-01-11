@@ -1,4 +1,0 @@
-extension:
-	js code interprets request to add/delete and prints to file
-python:
-	
