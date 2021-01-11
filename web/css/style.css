@@ -1,0 +1,107 @@
+body {
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    display: block;
+    min-width: 67%;
+    max-width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    font-weight: bold;
+}
+
+.help-text {
+    list-style-type: none;
+    margin: auto;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+    border: 1px #000;
+    height: 26px;
+    background-color: beige;
+}
+
+input:hover {
+    border: 2px #000;
+}
+
+#inputType {
+    height: 30px;
+}
+
+#enter {
+    height: 30px;
+    width: 35px;
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #bf0404;
+	background-color: #700202;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #8f2302;
+	color: #fff;
+}
+
+table {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    border-radius: 3px;
+    min-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    background-color: beige;
+    font-weight: bold;
+}
+
+p {
+    margin: auto;
+}
+
+#delete {
+    display: none;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.in-stock {
+    background-color: lightgreen;
+}
+
+.out-of-stock {
+    background-color: lightcoral;
+}
+
+hr {
+    color: #00283a;
+}
