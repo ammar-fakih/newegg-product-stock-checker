@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>eggChecker</title>
+
+    <script type="text/javascript" src="/eel.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="icon" href="https://img.icons8.com/carbon-copy/100/000000/egg.png">
+</head>
+<body>
+    <header>
+        <div class="img">
+            <img src="img\logov2.png" alt="logo.png">
+        </div>
+        
+        <br><br>
+
+        <ul class="help-text">
+            <li>Type in Model Number or Link from Newegg.com
+            <li>Enter form to see stock info</li>
+            <li>Press X to remove from list</li>
+
+        </ul>
+        <br><br>
+
+        <form id="form">
+            <select name="inputType" id="inputType">
+                <option value="model">Model</option>
+                <option value="link">Link</option>
+            </select>
+            <input id="userInput" type="text" placeholder="Input Model or Newegg Link">
+            <button id="enter"><i class="fas fa-angle-right"></i></li></button>
+        </form>
+            <br>
+    </header>
+    <table>
+        <thead>
+            <td>Name</td>
+            <td>Model #</td>
+            <td>Stock</td>
+            <td>X</td>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <h1 id="testH1"></h1>
+    <script type="text/javascript" src="js/myscript.js"></script>
+</body>
+
+</html>

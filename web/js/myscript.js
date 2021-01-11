@@ -63,8 +63,6 @@ async function getInfoFromLink(link) {
 async function update() {
     /* check stock for each row at a regual interval of 3 min per row*/
 
-    
-
     while(true) {
 
         if (modelDict.length < 1) { 
@@ -123,7 +121,7 @@ async function generateRow(event) {
 
     event.preventDefault();
 
-    // Find text to be inputted into table. 
+    // Find text to be inputted into table.
     if (inputType.value == "model") {
         var output = await getInfoFromModel(input.value);
         if (output == false) {
